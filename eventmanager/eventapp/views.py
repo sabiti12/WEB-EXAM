@@ -52,15 +52,3 @@ def contact(request):
             return render(request,'index.html')
 
     return render(request,"contact.html")
-
-def speakers(request):
-        return render(request,"speakers.html")
-
-def about(request):
-        return render(request,"about-us.html")
-
-def schedule(request):
-        return render(request,"schedule.html")
-
-def sponsors(request):
-        return render(request,"sponsors.html")
